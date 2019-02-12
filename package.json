@@ -1,0 +1,20 @@
+{
+  "name": "alexa-dnd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-plugin-mocha": "^5.2.1",
+    "expect": "^24.1.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "ask-sdk-core": "^2.3.0",
+    "ask-sdk-model": "^1.11.1"
+  },
+  "scripts": {
+    "lint": "eslint src/**.js",
+    "test": "mocha src/**.spec.js"
+  }
+}
