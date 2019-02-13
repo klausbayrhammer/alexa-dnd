@@ -14,7 +14,7 @@
     "ask-sdk-model": "^1.11.1"
   },
   "scripts": {
-    "lint": "eslint src/**.js",
-    "test": "mocha src/**.spec.js"
+    "lint": "eslint 'src/**/*.js'",
+    "test": "mocha 'src/**/*.spec.js'"
   }
 }
